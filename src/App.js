@@ -16,7 +16,7 @@ function App() {
         <MiPrimerEstado />
 
         <br></br>
-        <Componente1 year={currentYear} />
+        <Componente1 currentYear={currentYear} />
         
       </header>
 

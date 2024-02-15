@@ -20,6 +20,7 @@ export const MiPrimerEstado = () => {
             </strong>
             &nbsp;
             <button onClick={ e => cambiarNombre(e, "Mengano") }> Cambiar nombre por Mengano</button>
+            &nbsp;            
             <input type='text' onChange={e => cambiarNombre(e, e.target.value)} placeholder='Cambia el nombre' />
         </div>
     )
