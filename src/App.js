@@ -7,9 +7,6 @@ function App() {
 
   const currentYear = new Date().getFullYear().toString();
 
-  console.log(typeof(currentYear));
-  console.log(currentYear);  
-
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +16,7 @@ function App() {
         <MiPrimerEstado />
 
         <br></br>
-        <Componente1 currentYear={currentYear} />
+        <Componente1 year={currentYear} />
         
       </header>
 

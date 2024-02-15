@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Componente1 = ({ currentYear }) => {
+const Componente1 = ({ year }) => {
 
   return (
     <div>
-      <h4>Año actual: {currentYear}</h4>
+      <h4>Año actual: {year}</h4>
 
     </div>
   )
