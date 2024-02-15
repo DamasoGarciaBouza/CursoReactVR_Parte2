@@ -5,7 +5,7 @@ import Componente1 from './components/Componente1';
 
 function App() {
 
-  const currentYear = new Date().getFullYear().toString();
+  const currentYear = new Date().getFullYear();
 
   return (
     <div className="App">
